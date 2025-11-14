@@ -8,7 +8,7 @@ import (
 
 	"github.com/mattn/go-runewidth"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/fujie-xiyou/pterm/internal"
 )
 
 // Letters is a slice of Letter.
@@ -548,7 +548,7 @@ var DefaultBigText = BigTextPrinter{
        
       `,
 
-	  "@": ` ██████  
+		"@": ` ██████  
 ██    ██ 
 ██ ██ ██ 
 ██ ██ ██ 

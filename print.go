@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
+	"github.com/fujie-xiyou/pterm/internal"
 	"github.com/gookit/color"
-	"github.com/pterm/pterm/internal"
 )
 
 var defaultWriter io.Writer = os.Stdout

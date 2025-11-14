@@ -3,7 +3,6 @@ package pterm
 import (
 	"encoding/json"
 	"io"
-	"log/slog"
 	"os"
 	"path/filepath"
 	"runtime"
@@ -11,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/fujie-xiyou/pterm/internal"
 )
 
 type LogLevel int
@@ -396,7 +395,7 @@ func (l Logger) argsToMap(args []LoggerArgument) map[string]any {
 
 	for _, arg := range args {
 		v := arg.Value
-		if sv, ok := arg.Value.(slog.Value); ok {
+		if sv, ok := arg.Value.(interface{ Any() any }); ok {
 			v = sv.Any()
 		}
 		m[arg.Key] = v

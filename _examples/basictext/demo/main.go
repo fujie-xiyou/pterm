@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// The DefaultBasicText is a basic text printer provided by PTerm.

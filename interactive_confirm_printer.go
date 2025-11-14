@@ -8,7 +8,7 @@ import (
 	"atomicgo.dev/keyboard"
 	"atomicgo.dev/keyboard/keys"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/fujie-xiyou/pterm/internal"
 )
 
 // DefaultInteractiveConfirm is the default InteractiveConfirm printer.
