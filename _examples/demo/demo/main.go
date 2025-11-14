@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pterm/pterm"
-	"github.com/pterm/pterm/putils"
+	"github.com/fujie-xiyou/pterm"
+	"github.com/fujie-xiyou/pterm/putils"
 )
 
 // Speed the demo up, by setting this flag.

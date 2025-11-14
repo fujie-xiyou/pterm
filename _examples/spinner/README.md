@@ -12,7 +12,7 @@ package main
 import (
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -75,7 +75,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 	"time"
 )
 

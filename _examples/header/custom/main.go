@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// All available options: https://pkg.go.dev/github.com/pterm/pterm#HeaderPrinter

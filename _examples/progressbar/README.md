@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 // Slice of strings with placeholder text.
@@ -51,7 +51,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 	"time"
 )
 

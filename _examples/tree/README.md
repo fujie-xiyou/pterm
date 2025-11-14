@@ -10,7 +10,7 @@
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -45,8 +45,8 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
-	"github.com/pterm/pterm/putils"
+	"github.com/fujie-xiyou/pterm"
+	"github.com/fujie-xiyou/pterm/putils"
 )
 
 func main() {

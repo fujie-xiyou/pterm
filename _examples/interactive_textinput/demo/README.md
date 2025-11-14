@@ -6,7 +6,7 @@
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {

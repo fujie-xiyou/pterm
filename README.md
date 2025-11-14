@@ -149,7 +149,7 @@ package main
 import (
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -181,7 +181,7 @@ package main
 import (
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -213,7 +213,7 @@ package main
 import (
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -247,7 +247,7 @@ package main
 import (
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -289,7 +289,7 @@ package main
 import (
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -321,7 +321,7 @@ package main
 import (
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -350,7 +350,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	pterm.DefaultBarChart.WithBars([]pterm.Bar{
@@ -381,7 +381,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	pterm.DefaultBarChart.WithBars([]pterm.Bar{
@@ -412,7 +412,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	pterm.DefaultBarChart.WithBars([]pterm.Bar{
@@ -444,7 +444,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -483,7 +483,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	pterm.DefaultBarChart.WithBars([]pterm.Bar{
@@ -514,7 +514,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	pterm.DefaultBarChart.WithBars([]pterm.Bar{
@@ -546,7 +546,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -594,7 +594,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -633,7 +633,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	pterm.DefaultBarChart.WithBars([]pterm.Bar{
@@ -664,7 +664,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// A BasicText printer is used to print text, without special formatting.
@@ -692,8 +692,8 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
-	"github.com/pterm/pterm/putils"
+	"github.com/fujie-xiyou/pterm"
+	"github.com/fujie-xiyou/pterm/putils"
 )
 
 func main() {
@@ -719,8 +719,8 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
-	"github.com/pterm/pterm/putils"
+	"github.com/fujie-xiyou/pterm"
+	"github.com/fujie-xiyou/pterm/putils"
 )
 
 func main() {
@@ -743,8 +743,8 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
-	"github.com/pterm/pterm/putils"
+	"github.com/fujie-xiyou/pterm"
+	"github.com/fujie-xiyou/pterm/putils"
 )
 
 func main() {
@@ -779,7 +779,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	pterm.DefaultBox.
@@ -805,7 +805,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	pterm.DefaultBox.Println("Hello, World!")
@@ -826,7 +826,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	pterm.Info.Println("This might not be rendered correctly on GitHub,\nbut it will work in a real terminal.\nThis is because GitHub does not use a monospaced font by default for SVGs")
@@ -858,7 +858,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Default titled bpx
@@ -897,7 +897,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -925,8 +925,8 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
-	"github.com/pterm/pterm/putils"
+	"github.com/fujie-xiyou/pterm"
+	"github.com/fujie-xiyou/pterm/putils"
 )
 
 func main() {
@@ -960,7 +960,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	pterm.DefaultCenter.Println("This text is centered!\nIt centeres the whole block by default.\nIn that way you can do stuff like this:")
@@ -987,7 +987,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Print all colors
@@ -1031,7 +1031,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	for i := 0; i < 15; i++ {
@@ -1064,7 +1064,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -1099,7 +1099,7 @@ package main
 import (
 	"strings"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -1180,7 +1180,7 @@ package main
 import (
 	"strings"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -1224,7 +1224,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Print default error.
@@ -1255,7 +1255,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Print strings with a custom RGB color.
@@ -1281,7 +1281,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -1321,8 +1321,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pterm/pterm"
-	"github.com/pterm/pterm/putils"
+	"github.com/fujie-xiyou/pterm"
+	"github.com/fujie-xiyou/pterm/putils"
 )
 
 // Speed the demo up, by setting this flag.
@@ -1595,7 +1595,7 @@ func randomInt(min, max int) int {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// All available options: https://pkg.go.dev/github.com/pterm/pterm#HeaderPrinter
@@ -1635,7 +1635,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Print a default header.
@@ -1660,7 +1660,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -1692,7 +1692,7 @@ func boolToText(b bool) string {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -1721,7 +1721,7 @@ import (
 
 	"atomicgo.dev/keyboard/keys"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -1759,7 +1759,7 @@ import (
 	"fmt"
 
 	"atomicgo.dev/keyboard/keys"
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -1795,7 +1795,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -1831,7 +1831,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -1865,7 +1865,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -1890,7 +1890,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -1914,7 +1914,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	result, _ := pterm.DefaultInteractiveTextInput.WithMask("*").Show("Enter your password")
@@ -1938,7 +1938,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	logger := pterm.DefaultLogger.WithLevel(pterm.LogLevelTrace) // Only show logs with a level of Trace or higher.
@@ -1974,7 +1974,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 	"time"
 )
 
@@ -2015,7 +2015,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 	"time"
 )
 
@@ -2065,7 +2065,7 @@ func sleep() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	logger := pterm.DefaultLogger.
@@ -2104,7 +2104,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	logger := pterm.DefaultLogger.
@@ -2144,7 +2144,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 	"time"
 )
 
@@ -2210,7 +2210,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Declare panels in a two dimensional grid system.
@@ -2238,7 +2238,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Print a paragraph with a custom maximal width.
@@ -2269,7 +2269,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Print long text with default paragraph printer.
@@ -2300,7 +2300,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Enable debug messages.
@@ -2335,7 +2335,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 // Slice of strings with placeholder text.
@@ -2373,7 +2373,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 	"time"
 )
 
@@ -2429,7 +2429,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Print a section with level one.
@@ -2459,7 +2459,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 	"log/slog"
 )
 
@@ -2493,7 +2493,7 @@ package main
 import (
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -2556,7 +2556,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 	"time"
 )
 
@@ -2594,7 +2594,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Create styles as new variables
@@ -2621,7 +2621,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Create a fork of the default table, fill it with data and print it.
@@ -2650,7 +2650,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Create a fork of the default table, fill it with data and print it.
@@ -2690,7 +2690,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Create a table with multiple lines in a row and set a row separator.
@@ -2718,7 +2718,7 @@ func main() {
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Create a fork of the default table, fill it with data and print it.
@@ -2748,7 +2748,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 	"reflect"
 	"time"
 )
@@ -2792,7 +2792,7 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {
@@ -2827,8 +2827,8 @@ func main() {
 package main
 
 import (
-	"github.com/pterm/pterm"
-	"github.com/pterm/pterm/putils"
+	"github.com/fujie-xiyou/pterm"
+	"github.com/fujie-xiyou/pterm/putils"
 )
 
 func main() {

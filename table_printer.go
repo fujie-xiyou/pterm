@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/fujie-xiyou/pterm/internal"
 )
 
 // DefaultTable contains standards, which can be used to print a TablePrinter.

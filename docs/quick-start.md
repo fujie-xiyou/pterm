@@ -14,7 +14,7 @@ go get -u github.com/pterm/pterm
 ```go
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	// Create a new header as a fork from pterm.DefaultHeader.

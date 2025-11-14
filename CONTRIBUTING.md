@@ -100,7 +100,7 @@ func (p TemplatePrinter) Render() error {
 ```go
 // Start the TemplatePrinter.
 package pterm
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 type TemplatePrinter struct{
 

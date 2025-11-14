@@ -4,7 +4,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/fujie-xiyou/pterm/internal"
 )
 
 var activeSpinnerPrinters []*SpinnerPrinter

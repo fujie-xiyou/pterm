@@ -8,8 +8,8 @@ import (
 	"atomicgo.dev/cursor"
 	"atomicgo.dev/keyboard"
 	"atomicgo.dev/keyboard/keys"
+	"github.com/fujie-xiyou/pterm/internal"
 	"github.com/lithammer/fuzzysearch/fuzzy"
-	"github.com/pterm/pterm/internal"
 )
 
 var (

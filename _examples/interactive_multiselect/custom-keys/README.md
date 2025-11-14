@@ -9,7 +9,7 @@ import (
 	"fmt"
 
 	"atomicgo.dev/keyboard/keys"
-	"github.com/pterm/pterm"
+	"github.com/fujie-xiyou/pterm"
 )
 
 func main() {

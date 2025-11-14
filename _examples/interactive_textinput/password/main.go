@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/fujie-xiyou/pterm"
 
 func main() {
 	result, _ := pterm.DefaultInteractiveTextInput.WithMask("*").Show("Enter your password")
